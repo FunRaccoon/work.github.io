@@ -1,0 +1,258 @@
+#logo {
+	width: 200px;
+	height: 40px;
+}
+#logo2 {
+	width: 110px;
+	height: 25px;
+}
+
+.absolute {
+	position: absolute;
+}
+
+/* ВОЕННАЯ ИПОТЕКА В КРАСНОДАРЕ + ПИКЧА */
+.pos1 { 
+	top: 125px; 
+	left: 452px;
+}
+
+.pos2 {
+	top: 120px;
+	left: 578px;
+}
+.texttop2 {
+	color: #ffcc00;
+	font-weight: 600;
+	font-size: 25;
+}
+
+.pos5 {
+	top: 300px;
+	left: 260px;
+}
+.button1 {
+	background-image: none;
+	background-color: transparent;
+	border: 2px solid #ffcc00;
+	color: white;
+	font-weight: 600;
+	font-size: 16;
+	text-align: center;
+	outline: none;
+	padding: 5px 17px 7px 17px;
+}
+.button123 {
+	background-image: none;
+	background-color: transparent;
+	border: 2px solid #ffcc00;
+	color: white;
+	font-weight: 600;
+	font-size: 16;
+	text-align: center;
+	outline: none;
+	padding: 5px 17px 7px 17px;
+}
+
+.pos6 {
+	top: 805px;
+	left: 150px;
+}
+
+.hover {
+	transition-duration: 0.4s;
+}
+.hover:hover {
+	background-color:#ffcc00;
+	color: white;
+}
+.hover:active {
+	transform: translateY(4px);
+}
+
+.hovers {
+	transition-duration: 0.4s;
+}
+.hovers:hover {
+	background-color: #ffcc00; 
+	color: black;
+}
+.hovers:active {
+	transform: translateY(4px);
+}
+/* Конец ипотеки */
+
+/* Начало звёзд*/
+.posstar1 {top: 199px; left: 350px;}
+.posstar2 {top: 225px; left: 348px;}
+.posstar3 {top: 250px; left: 320px;}
+.posstar4 {top: 199px; left: 910px;}
+.posstar5 {top: 225px; left: 930px;}
+.posstar6 {top: 250px; left: 910px;}
+/* Конец звёзд */
+/* Начало звёздбукв */
+.cff {color: white;font-weight: 600;font-size: 22;}
+
+.textstar1 {top: 193px; left: 380px;}
+.textstar2 {top: 219px; left: 378px;}
+.textstar3 {top: 244px; left: 350px;}
+.textstar4 {top: 193px; left: 942px;}
+.textstar5 {top: 219px; left: 965px;}
+.textstar6 {top: 246px; left: 943px;}
+/* Конец звёздбукв */
+.texttop {
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px;
+	border-color: black;
+	padding: 4px;
+}
+.texttop:after {
+	margin-top: 20px;
+	background-color: red;
+	display: block;
+	content: "";
+	height: 2px;
+	width: 0%;
+	transition: width .3s ease-in-out;
+}
+.texttop:hover:after,
+.texttop:focus:after {
+	width: 100%;
+}
+
+.borders {
+	border: 2.5px solid #ffcc00;
+	padding-bottom: 148.5px;
+	padding-top: 131px;
+}
+.brightness {
+	filter: brightness(0.5);
+	margin-top: 15px;
+	z-index: 2; /*Вроде не нужен*/
+}
+
+.indpos {
+	position: relative;
+	top: 34px;
+}
+
+#h0 {font-size: 32; color: black;}
+#h01 {font-size: 23; color: black;margin-top: 20px;}
+#h02 {font-size: 16; color: black;}
+
+
+
+.arrowpos1 {
+	top: 307px;
+	left: 35px;
+	transform: rotate(180deg);
+}
+.arrowpos2 {
+	top: 180px;
+	left: 625px;
+}
+.arrow-2 {
+    cursor: pointer;
+}
+.arrow-2-top, 
+.arrow-2-bottom {
+    background: #ffcc00;
+    height: 4px;
+    top: 61px;
+    width: 20px;
+}
+.arrow-2-top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+.arrow-2-bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+}
+.arrow-2-top::after, 
+.arrow-2-bottom::after {
+	background: white;
+	content: '';
+    height: 100%;
+    position: absolute;
+    transition: all 0.15s;
+}
+.arrow-2-top::after {
+    left: 100%;
+    right: 0;
+    transition-delay: 0s;
+}
+.arrow-2-bottom::after {
+    left: 0;
+    right: 100%;
+    transition-delay: 0.15s;
+}
+.arrow-2:hover .arrow-2-top::after {
+    left: 0;
+    transition-delay: 0.15s;
+}
+.arrow-2:hover .arrow-2-bottom::after {
+    right: 0;
+    transition-delay: 0s;
+}
+
+
+
+
+.pic {width: 660px; height: 445px;}
+.ttb1 {left: 78px; top: 140px;font-size: 27; color: #ffcc00;}
+.ttb2 {left: 38px; top: 160px;font-size: 26; color: #ffcc00;}
+.spn1 {top: 205px; left: 130px;font-size: 16; color: white;white-space: pre;}
+.spn2 {top: 680px;left: 895px;color: black; font-size: 32;white-space: pre;line-height: 1;}
+.cc1 {color: black; top: 760px; left: 872px}
+.cc2 {position: absolute;left: 870px; top: 780px;}
+.cc3 {color: grey; top: 813px; left: 872; font-size: 12;}
+.cc4 {color: black; top: 860px; left: 872px}
+.cc5 {position: absolute;left: 870px; top: 880px;}
+.cc6 {color: grey; top: 913px; left: 872px; font-size: 12;}
+.cc7 {top: 963px; left: 972px;color: black;}
+.cc8 {top: 2403px; left: 650px; color: black;}
+
+/* Круги */
+.anycircle {position: absolute;border-radius:50%;background-color:#ffcc00;width: 50px;height: 50px;}
+.anycircle1 {margin-left: 75px;padding-top: 5px;font-weight: bold;}
+.circletext {color: grey;padding-top: 15px;}
+.circletextpre {color: grey;padding-top: 15px;white-space:pre;}
+.circle14 {margin-left: 75px;padding-top: 15px;font-weight: bold;}
+.circle2356 {position: absolute; left: 16.5px;top: -11px;}
+
+.circle1 {position: absolute; left: 15.5px;top: -10px;}
+.circle2 {position: absolute; left: 575px; margin-top: -102px;}
+.circle3 {position: absolute; left: 975px; margin-top: -102.5px;}
+.circle4 {position: absolute; left: 15.5px;top: -10px;}
+.circle5 {position: absolute; left: 575px; margin-top: -102px;}
+.circle6 {position: absolute; left: 975px; margin-top: -102.5px;}
+/* Круги */
+
+/* Квадраты */
+.cubenumbs {color: #ffcc00;font-weight: bold;}
+.pd30 {padding-left: 30px;}
+.cubezast {width: 260px; height: 260px;margin-right: -5px;}
+.cubezast1 {position: relative; border: 2px solid #ffcc00;padding-top: 113.5px;padding-bottom: 130.5px; padding-right: 1.5px;}
+
+.zastr1 {position: relative; border: 2px solid #ffcc00;padding-top: 113.5px;padding-bottom: 130.5px; padding-left: 0.5px; padding-right: 1.5px;}
+.zastr41 {position: relative; border: 2px solid #ffcc00;padding-top: 113.5px;padding-bottom: 130.5px;padding-right: 5.5px;}
+
+.zastr12 {position: absolute; left: 235px;top: 1907px; color: white;white-space: pre;}
+.zastr2 {position: absolute; left: 535px;top: 1907px; color: white;white-space: pre;}
+.zastr3 {position: absolute; left: 815px;top: 1907px; color: white;white-space: pre;}
+.zastr4 {position: absolute; left: 1115px;top: 1907px; color: white;white-space: pre;}
+/* Квадраты */
+
+footer {
+    background-color: #333333;
+    color: white;
+    display: block;
+    height: 235px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
